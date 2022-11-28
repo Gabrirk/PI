@@ -1,0 +1,20 @@
+CREATE TABLE `candidatos` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) DEFAULT NULL,
+  `numero` varchar(255) DEFAULT NULL,
+  `partido` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) 
+CREATE TABLE `pesquisa` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `insituicao` varchar(255) DEFAULT NULL,
+  `data` varchar(255) DEFAULT NULL,
+  `votos` varchar(255) DEFAULT NULL,
+  `c1` varchar(45) DEFAULT NULL,
+  `c2` varchar(45) DEFAULT NULL,
+  `c3` varchar(45) DEFAULT NULL,
+  `v1` varchar(45) DEFAULT NULL,
+  `v2` varchar(45) DEFAULT NULL,
+  `v3` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
